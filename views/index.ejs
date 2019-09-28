@@ -19,12 +19,13 @@
             <input type="file" multiple name="avatar">
           </div>
           <div class="file-path-wrapper">
-            <input class="file-path validate" type="text" placeholder="Upload one or more files jpeg, jpg, png" name="avatar">
+            <input class="file-path validate" type="text" placeholder="Upload one or more files jpeg, jpg, png, not more than 5mb" name="avatar">
           </div>
         </div>
         <button type="submit" class="btn">Submit</button>
       </form>
-    
+    <br>
+    <img src="<%= typeof file != 'undefined' ? file : '' %>" class="responsive-img">
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

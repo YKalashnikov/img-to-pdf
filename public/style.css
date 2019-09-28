@@ -6,3 +6,7 @@ form {
 .file-path-wrapper {
     width: 50%;
 }
+ img {
+     width:20%;
+     -webkit-transform:rotate(180deg);
+ }
